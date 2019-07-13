@@ -1,0 +1,90 @@
+/* Write some CSS below */
+body {
+	margin: 0;
+	font-family: Montserrat;
+	color: #2E2E2E;
+	font-weight: regular;
+	background-color: #FFE74C;
+}
+h1 {
+	font-family: Fira Sans;
+	font-weight: bold;
+	font-size: 50px;
+	color: #ffffff;
+    margin: 0px;
+}
+
+h2 {
+	color: #2ECDD1;
+}
+
+h3 {
+	color: #38618C;
+    font-size: 30px;
+}
+
+img {
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+#mainBanner {
+	background-image: linear-gradient(rgba(56,97,140,0.4), rgba(56,97,140,0.8)), url(images/background.jpg);
+	text-align: center;
+	background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
+
+.btn-blue {
+	background-color: #FF5964;
+	padding: 20px;
+	border-radius: 15px;
+	transition: 0.3s;
+	color: #ffffff;
+	font-family: fira Sans;
+	font-size: 18px;
+	font-weight: bold;
+	border:none;
+}
+.btn-blue:hover {
+	background-color: #2ECDD1;
+	cursor: pointer;
+}
+
+.container {
+	padding: 20px 0 40px;
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.card {
+	background-color: #ffffff;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	width: 250px;
+	text-align: center;
+    padding: 15px;
+    margin: 20px 10px;
+    border-radius: 5px;
+}
+
+.video {
+	background-color: red;
+	margin-top: 30px;
+}
+
+#footer {
+	background-color: #38618C;
+	color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
